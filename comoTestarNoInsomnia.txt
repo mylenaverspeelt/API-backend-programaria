@@ -2,3 +2,5 @@ Get: passa a rota que quer receber do servidor
 Post: passa o objeto no modelo que o mongo espera
 Patch: passa na URL o id da mulher que quer alterar e o objeto modelo com o que quer alterar
 Delete: passa apenas o id no URL da requisição
+
+
