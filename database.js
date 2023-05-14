@@ -20,6 +20,6 @@ module.exports = conexaoDatabase
 
 // pra usar esse pacote env tem que npm i dotenv
 
-//tambem cria-se um arquivo .env_example, que é pra qdo alguem baixar o código a propria pessoa cria a propria url
+//tambem cria-se um arquivo .env_example, que é pra qdo alguem baixar o código saber quais as configurações de ambiente, quais constantes usar...
 
 
