@@ -17,8 +17,7 @@ app.listen(3333, () => {
 //GET pra receber infos do servidor 
 app.use(router.get('/voluntaries', async (req, res) => {
     try {
-        let listaEncontrada = await Voluntarie.find()
-        res.json(listaEncontrada)   //devolve pro usuario a lista recebida do BD
+        res.json(await Voluntarie.find())   //devolve pro usuario a lista recebida do BD
     } catch (error) {
         console.log(error)
     }
